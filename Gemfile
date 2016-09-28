@@ -13,6 +13,7 @@ gem 'responders'
 gem 'slim-rails'
 gem 'twitter-bootstrap-rails'
 gem 'enumerate_it'
+gem 'capybara'
 
 group :development, :test do
   gem 'byebug'
