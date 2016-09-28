@@ -8,4 +8,8 @@ RSpec.describe Course, type: :model do
     it { is_expected.to validate_length_of(:description).is_at_most(45) }
     it { is_expected.to validate_presence_of(:status) }
   end
+
+  context 'with association' do
+    it { is_expected.to have_many(:classrooms) } 
+  end  
 end
