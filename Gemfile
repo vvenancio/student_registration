@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'responders'
 gem 'slim-rails'
 gem 'twitter-bootstrap-rails'
+gem 'enumerate_it'
 
 group :development, :test do
   gem 'byebug'
