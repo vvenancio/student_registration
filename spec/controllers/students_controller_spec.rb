@@ -36,7 +36,7 @@ RSpec.describe StudentsController, type: :controller do
   end
 
   describe '#create' do
-    context 'with valida attributes' do
+    context 'with valid attributes' do
       subject { post :create, student: attributes_for(:student) }
 
       it 'creates a new student' do
@@ -50,7 +50,7 @@ RSpec.describe StudentsController, type: :controller do
       end
     end
 
-    context 'with valida attributes' do
+    context 'with invalid attributes' do
       subject { post :create, student: { name: '', register_number: 'AB123' } }
 
       it 'does not create a new student' do
