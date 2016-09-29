@@ -1,0 +1,17 @@
+pt-BR:
+  activerecord:
+    models:
+      classroom:
+        one: Matrícula
+        other: Matrículas
+    attributes:
+      classroom:
+        entry_at: Data de entrada
+        student_id: Aluno
+        course_id: Curso
+    errors:
+      models:
+        classroom:
+          attributes:
+            entry_at:
+              blank: Não pode estar vazio
